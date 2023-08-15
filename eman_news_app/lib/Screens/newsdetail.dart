@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class News extends StatelessWidget {
@@ -128,7 +129,19 @@ class News extends StatelessWidget {
                   ),
                 ),
               ),
-              Spacer(),
+              Expanded(
+                  child: Align(
+                alignment: Alignment.bottomRight,
+                child: Padding(
+                  padding: const EdgeInsets.all(40),
+                  child: Container(
+                    child: CircleAvatar(
+                      backgroundColor: const Color.fromARGB(255, 239, 104, 94),
+                      child: SvgPicture.asset('images/Group.svg'),
+                    ),
+                  ),
+                ),
+              ))
             ]),
           ),
         ],

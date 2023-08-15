@@ -424,26 +424,57 @@ class Home extends StatelessWidget {
                   height: MediaQuery.of(context).size.height * 0.9,
                 ),
                 Container(
+                  height: MediaQuery.of(context).size.height * 0.08,
                   width: MediaQuery.of(context).size.width * 0.7,
                   child: FloatingActionButton(
                     backgroundColor: Colors.white,
                     onPressed: () {},
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      child: Column(
                         children: [
-                          Icon(
-                            Icons.home,
-                            color: const Color.fromARGB(255, 239, 104, 94),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Icon(
+                                Icons.home,
+                                color: const Color.fromARGB(255, 239, 104, 94),
+                              ),
+                              Icon(
+                                Icons.favorite,
+                                color: Color.fromARGB(255, 241, 237, 237),
+                              ),
+                              Icon(
+                                Icons.face,
+                                color: Color.fromARGB(255, 241, 237, 237),
+                              ),
+                            ],
                           ),
-                          Icon(
-                            Icons.favorite,
-                            color: Color.fromARGB(255, 241, 237, 237),
-                          ),
-                          Icon(
-                            Icons.face,
-                            color: Color.fromARGB(255, 241, 237, 237),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                'Home',
+                                style: GoogleFonts.nunito(
+                                    color: Colors.black,
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                              Text(
+                                'Favorite',
+                                style: GoogleFonts.nunito(
+                                    color: Colors.grey,
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                              Text(
+                                'Profile',
+                                style: GoogleFonts.nunito(
+                                    color: Colors.grey,
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                            ],
                           ),
                         ],
                       ),
