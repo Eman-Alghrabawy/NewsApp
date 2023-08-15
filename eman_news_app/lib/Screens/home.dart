@@ -416,6 +416,42 @@ class Home extends StatelessWidget {
                 ],
               ),
             ),
+          ),
+          Center(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.9,
+                ),
+                Container(
+                  width: MediaQuery.of(context).size.width * 0.7,
+                  child: FloatingActionButton(
+                    backgroundColor: Colors.white,
+                    onPressed: () {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(
+                            Icons.home,
+                            color: const Color.fromARGB(255, 239, 104, 94),
+                          ),
+                          Icon(
+                            Icons.favorite,
+                            color: Color.fromARGB(255, 241, 237, 237),
+                          ),
+                          Icon(
+                            Icons.face,
+                            color: Color.fromARGB(255, 241, 237, 237),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           )
         ],
       ),
