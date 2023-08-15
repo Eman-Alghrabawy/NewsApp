@@ -1,5 +1,6 @@
 import 'package:eman_news_app/Screens/Home.dart';
 import 'package:eman_news_app/Screens/newsdetail.dart';
+import 'package:eman_news_app/Screens/notification.dart';
 import 'package:eman_news_app/Screens/search.dart';
 
 import 'package:flutter/material.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: News(),
+      home: notification(),
     );
   }
 }
