@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>154856485229-r4u5ld8papttk1i797g7frk4h2p5c0ue.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.154856485229-r4u5ld8papttk1i797g7frk4h2p5c0ue</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBlu3kh_Zm4PQbZxrrgRXVqhOOvHhYA5uA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>154856485229</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.emanNewsApp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>firstnoti-f7eda</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firstnoti-f7eda.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:154856485229:ios:601e74a8b653528b476a64</string>
+	<key>DATABASE_URL</key>
+	<string>https://firstnoti-f7eda-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

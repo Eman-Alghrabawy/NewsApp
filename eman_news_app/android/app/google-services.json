@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "154856485229",
+    "firebase_url": "https://firstnoti-f7eda-default-rtdb.firebaseio.com",
+    "project_id": "firstnoti-f7eda",
+    "storage_bucket": "firstnoti-f7eda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154856485229:android:c63f6f3831b52fbf476a64",
+        "android_client_info": {
+          "package_name": "com.example.eman_news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154856485229-e9dhho2gk5l5lrmbjddhpd8c33jval4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWxH9KmkWFU2daua-3XeYuo1-R2OnBno0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154856485229-e9dhho2gk5l5lrmbjddhpd8c33jval4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
